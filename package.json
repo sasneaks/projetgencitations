@@ -1,0 +1,26 @@
+{
+  "name": "projet-citations",
+  "version": "1.0.0",
+  "description": "Générateur de citations aléatoires avec CI/CD (Node.js, Jest, GitHub Actions)",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest",
+    "quote": "node scripts/cli.js",
+    "start": "node scripts/cli.js"
+  },
+  "keywords": [
+    "node",
+    "jest",
+    "ci-cd",
+    "github-actions",
+    "citations"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
